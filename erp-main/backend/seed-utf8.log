@@ -1,0 +1,90 @@
+﻿node.exe : C:\Users\y
+agne\Downloads\erp-ha
+nee\erp-main\backend\
+node_modules\ts-node\
+src\index.ts:859
+At C:\nvm4w\nodejs\np
+x.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (C:\User   
+ s\yagne\...rc\in    
+dex.ts:859:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+    return new TSErro
+r(diagnosticText, 
+diagnosticCodes, 
+diagnostics);
+           ^
+TSError: Γ¿» Unable 
+to compile 
+TypeScript:
+scripts/seed-fixed.js
+(389,14): error 
+TS1005: ',' expected.
+
+    at createTSError 
+(C:\Users\yagne\Downl
+oads\erp-hanee\erp-ma
+in\backend\node_modul
+es\ts-node\src\index.
+ts:859:12)
+    at reportTSError 
+(C:\Users\yagne\Downl
+oads\erp-hanee\erp-ma
+in\backend\node_modul
+es\ts-node\src\index.
+ts:863:19)
+    at getOutput (C:\
+Users\yagne\Downloads
+\erp-hanee\erp-main\b
+ackend\node_modules\t
+s-node\src\index.ts:1
+077:36)
+    at 
+Object.compile (C:\Us
+ers\yagne\Downloads\e
+rp-hanee\erp-main\bac
+kend\node_modules\ts-
+node\src\index.ts:143
+3:41)
+    at 
+Module.m._compile (C:
+\Users\yagne\Download
+s\erp-hanee\erp-main\
+backend\node_modules\
+ts-node\src\index.ts:
+1617:30)
+    at node:internal/
+modules/cjs/loader:18
+99:10
+    at Object.require
+.extensions.<computed
+> [as .js] (C:\Users\
+yagne\Downloads\erp-h
+anee\erp-main\backend
+\node_modules\ts-node
+\src\index.ts:1621:12
+)
+    at Module.load (n
+ode:internal/modules/
+cjs/loader:1469:32)
+    at Module._load (
+node:internal/modules
+/cjs/loader:1286:12)
+    at TracingChannel
+.traceSync (node:diag
+nostics_channel:322:1
+4) {
+  diagnosticCodes: [ 
+1005 ]
+}

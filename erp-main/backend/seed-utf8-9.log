@@ -1,0 +1,65 @@
+﻿≡ƒöä Connecting to MongoDB...
+Γ£à Connected to MongoDB
+
+≡ƒî▒ Starting comprehensive data seeding...
+
+≡ƒùæ∩╕Å  Clearing existing data...
+Γ£à Existing data cleared
+
+≡ƒôª Creating products...
+Γ£à Created 30 products
+
+≡ƒôè Creating inventory records...
+Γ£à Created 30 inventory records
+
+≡ƒæÑ Creating customers...
+Γ£à Created 20 customers
+
+≡ƒæ¿ΓÇì≡ƒÆ╝ Creating employees...
+Γ£à Created 15 employees
+
+≡ƒôà Creating attendance records...
+Γ£à Created 270 attendance records
+
+≡ƒÅ¡ Creating suppliers...
+Γ£à Created 8 suppliers
+
+≡ƒ¢Æ Creating orders...
+Γ£à Created 50 orders
+
+≡ƒôï Creating projects...
+Γ£à Created 10 projects
+
+Γ£à Creating tasks...
+node.exe : Γ¥î Error 
+seeding data: 
+TypeError: Cannot 
+read properties of 
+undefined (reading 
+'length')
+At C:\nvm4w\nodejs\np
+x.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Γ¥î Err   
+ or seedi...ading    
+ 'length'):Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+    at seedData (C:\U
+sers\yagne\Downloads\
+erp-hanee\erp-main\ba
+ckend\scripts\seed-fi
+xed.js:468:101)
+    at processTicksAn
+dRejections (node:int
+ernal/process/task_qu
+eues:105:5)
